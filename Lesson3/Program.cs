@@ -98,32 +98,159 @@ namespace Lesson3
 			// 5
 			// 12
 
+			//int x = int.Parse(Console.ReadLine());
+
+			//Console.WriteLine("Enter first number");
+
+			//bool isFirstValid = int.TryParse(Console.ReadLine(), out int first);
+
+			//Console.WriteLine("Enter second number");
+
+			//bool isSecondValid = int.TryParse(Console.ReadLine(), out int second);
+
+			//if (!isFirstValid || !isSecondValid)
+			//{
+			//	Console.WriteLine("ინვალიდ ინფუთი");
+			//}
+			//else if (first != second)
+			//{
+			//	Console.WriteLine(first + second);
+			//}
+			//else
+			//{
+			//	Console.WriteLine((first + second) * 3);
+			//}
 
 
-			Console.WriteLine("Enter first number");
 
-			bool isFirstValid = int.TryParse(Console.ReadLine(), out int first);
 
-			Console.WriteLine("Enter second number");
 
-			bool isSecondValid = int.TryParse(Console.ReadLine(), out int second);
 
-			if (!isFirstValid || !isSecondValid)
-			{
-				Console.WriteLine("ინვალიდ ინფუთი");
-			}
-			else if (first != second)
-			{
-				Console.WriteLine(first + second);
-			}
-			else
-			{
-				Console.WriteLine((first + second) * 3);
-			}
 
 			#endregion
 
 
+			int x = 30;
+
+			//if (x == 20)
+			//{
+			//	Console.WriteLine();
+			//}
+			//else if (x == 30)
+			//{
+			//	Console.WriteLine();
+			//}
+			//else if(x == 10)
+			//{
+			//	Console.WriteLine();
+			//}
+			//else
+			//{
+			//	Console.WriteLine();
+			//}
+
+
+
+			//switch (x)
+			//{
+			//	case 20:
+			//		Console.WriteLine("print from case 20");
+			//		break;
+			//	case 30:
+			//		Console.WriteLine("imushavebs");
+			//		return;
+			//	case 10:
+			//		Console.WriteLine("print from case 10");
+			//		goto case 20;
+
+			//	default:
+			//		break;
+			//}
+
+
+			//Console.WriteLine("dsfdgfhgjhkgjk");
+
+
+
+
+
+			//for (int i = 0; i < 10; i+=10)
+			//{
+			//	Console.WriteLine(i);
+			//}
+
+			//for (int i = 10 - 1; i >= 0; i--)
+			//{
+			//	Console.WriteLine(i);
+			//}
+
+
+
+			//while (5==5)
+			//{
+			//	Console.WriteLine("dsfdfgfhgjhj");
+			//}
+
+
+			//int z = 5;
+			//int y = z;  // 5
+
+
+			//z = 10;
+			//// y  5
+			////
+			//int[] arr = [20, 30, 60];
+			//int[] arr2 = arr;
+
+			//arr[0] = 100;
+
+
+
+			//int num = 10;
+
+			//while (num > 10)
+			//{
+			//	Console.WriteLine("metia");
+			//	num++;
+			//}
+
+
+			//do
+			//{
+			//	Console.WriteLine("metia");
+			//	num++;
+			//}
+			//while (num > 10);
+
+
+
+			//int[] numbers = [20, 30, 60];
+
+			//foreach (var item in numbers)
+			//{
+			//	Console.WriteLine(item);
+			//}
+
+
+			//foreach (var item in args)
+			//{
+				
+			//}
+
+
+
+
+			
+
+			Random random = new Random();
+
+			Console.WriteLine(random.Next(0,100));
+
+
+
+
+
+			/// random int
 
 		}
 	}
