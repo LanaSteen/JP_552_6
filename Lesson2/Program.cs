@@ -160,7 +160,7 @@
 			//if (!isvallid)
 			//{
 			//	Console.WriteLine("Invalid input");
-				
+
 			//}
 			//else if (sallary > 10000)
 			//{
@@ -187,6 +187,7 @@
 			//	Console.WriteLine("Invalid input");
 			//}
 
+			Console.WriteLine("SDsfg");
 		}
 	}
 }
