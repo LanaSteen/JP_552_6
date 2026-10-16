@@ -180,10 +180,30 @@
 			//		Console.WriteLine(yutiSum);
 			//	}
 			//	Console.WriteLine(sum);
+			//	
+			//	
+			
+		
+
+			int[] nums = new int[10]; //[0,0]
+									  //
+
+			//Array.Resize(ref numbers, 50); ///  ar gaaketot
+
+			int[] numbers = [50, 30, 60];
+
+			int max = numbers[0]; // 50
+			for (int i = 1; i < nums.Length; i++)
+			{
+				if(nums[i] > max)
+				{
+					max = nums[i];
+
+				}
+			}
 
 
-
-
+			Console.WriteLine(max);
 
 
 
