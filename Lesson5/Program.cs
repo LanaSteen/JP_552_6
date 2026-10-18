@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System.ComponentModel;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Lesson5
 {
@@ -6,6 +7,9 @@ namespace Lesson5
 	{
 		static void Main(string[] args)
 		{
+
+
+			#region hw
 			//			1.შექმენით რიცხვების არაი და დათვალეთ რიცხვების საშუალო არითმეტიკული.
 			//2.შექმენით რიცხვების jagged array სამი განზომილებით და იპოვეთ ყველაზე დიდი რიცხვი თითოეული განზომილებიდან.
 			//3.შექმენით რიცხვების jagged array და დათვალეთ ყველა რიცხვის საშუალო არითმეტიკული.
@@ -69,29 +73,95 @@ namespace Lesson5
 			//3.შექმენით რიცხვების jagged array და დათვალეთ ყველა
 			//რიცხვის საშუალო არითმეტიკული.
 			//
-			int[][] jagged2 = 
+			//int[][] jagged2 = 
+			//	[
+			//		[15,20,30,45],
+			//		[20,30,60],
+			//		[78,95,32],
+			//		[12,65,32,78]
+			//	];
+
+
+			//int sum = 0;
+			//int count = 0;
+
+			//foreach (var arr in jagged2)
+			//{
+			//	foreach (var el in arr)
+			//	{
+			//		sum += el;
+			//		count++;
+			//	}
+			//}
+
+			//double avg = sum / count;
+			//Console.WriteLine(avg);
+
+
+
+			#endregion
+
+
+
+
+			//int[,] a = 
+			//{ 
+
+			//	{ 1, 2 }, 
+			//	{ 3, 4 }, 
+			//	{ 20,30} 
+
+			//};
+
+			//Console.WriteLine(a[0,0]);
+
+
+			//foreach (var item in a)
+			//{
+			//	Console.WriteLine(item);
+			//}
+
+
+
+
+
+
+
+			///   jagged array სახელები 
+			///   უნდა დაბეჭდოთ ყველა სიმბოლო გადაყვანილი მაღალ რეგისტრში
+			///   
+
+
+			string[][] names =
 				[
-					[15,20,30,45],
-					[20,30,60],
-					[78,95,32],
-					[12,65,32,78]
+				  ["saxeli1","saxeli2"],
+				  ["saxeli3", "Saxeli4"]
+
 				];
 
 
-			int sum = 0;
-			int count = 0;
-
-			foreach (var arr in jagged2)
+			foreach (var arr in names)
 			{
-				foreach (var el in arr)
+				foreach (var saxeli in arr)
 				{
-					sum += el;
-					count++;
+					
+					foreach (var item in saxeli.ToUpper())
+					{
+						//Console.WriteLine(item.ToString().ToUpper());
+						Console.WriteLine(item);
+					}
 				}
 			}
 
-			double avg = sum / count;
-			Console.WriteLine(avg);
+			//string name = "   ds dsd     ";
+			//Console.WriteLine(name.ToUpper());
+			//Console.WriteLine(name.ToLower());
+			//Console.WriteLine(name.Trim());
+			//Console.WriteLine(name.TrimEnd());
+
+			//Console.WriteLine(name.Length);
+
+
 
 		}
 	}
