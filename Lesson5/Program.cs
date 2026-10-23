@@ -152,7 +152,7 @@ namespace Lesson5
 					}
 				}
 			}
-
+			//ადსდს
 			//string name = "   ds dsd     ";
 			//Console.WriteLine(name.ToUpper());
 			//Console.WriteLine(name.ToLower());
