@@ -3,4 +3,6 @@
   <Project Path="Lesson3/Lesson3.csproj" Id="7967d25a-38a2-46d1-b948-d5c941dcfa31" />
   <Project Path="Lesson4/Lesson4.csproj" Id="86172dc1-8bb9-4800-a71c-af78749e6205" />
   <Project Path="Lesson5/Lesson5.csproj" Id="41e73f54-df29-4ae5-adcc-8de804988a9c" />
+  <Project Path="Lesson6/Lesson6.csproj" Id="89b67799-3c3a-4aac-bac5-64cfee820d57" />
+  <Project Path="Lesson7/Lesson7.csproj" Id="f8fb2eb3-c86c-4e88-9139-6cb6497e7184" />
 </Solution>
