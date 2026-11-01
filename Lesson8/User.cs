@@ -67,7 +67,7 @@ namespace Lesson8
 
 
 
-		private string _password;
+		private string _password; 
 
 		public string Password
 		{
@@ -84,7 +84,8 @@ namespace Lesson8
 			}
 		}
 
-
+		public int _age1;
+		public int MyProperty { get; set; }
 		private string _phone;
 
 		public string Phone
