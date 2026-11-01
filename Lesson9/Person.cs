@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lesson9
 {
-	internal class Person
+	internal abstract class Person
 	{
 		private string _name;  ///  shemnaxveli
 

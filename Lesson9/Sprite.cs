@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lesson9
 {
-	internal class Sprite
+	internal abstract class Sprite
 	{
 
 		public int X { get; set; }

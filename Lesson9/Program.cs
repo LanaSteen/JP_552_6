@@ -34,6 +34,7 @@
 
 
 			//Dish 
+
 			//Maindish
 			//SideDish
 			//Dessert
@@ -43,6 +44,9 @@
 			//isVegetarian
 			//Name
 
+			Person person = new Person();
+
+			Student student = new Student();
 
 
 		}
