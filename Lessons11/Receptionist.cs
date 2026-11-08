@@ -19,6 +19,14 @@ namespace Lessons11
 			return Sallary * RegisteredPatients;
 		}
 
-
+		public override void Jumping()
+		{
+			Console.WriteLine("jumping");
+		}
 	}
 }
+
+
+
+/// ovverride - გადაწერა, გადაფარვა
+/// overload - გადატვირთვა

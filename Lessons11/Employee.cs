@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lessons11
 {
-	internal class Employee
+	internal abstract class Employee
 	{
 		public string FullName { get; set; }
 		private decimal _sallary;
@@ -24,6 +24,14 @@ namespace Lessons11
 				}
 			
 			}
+		}
+
+		public abstract void Jumping();
+
+		public virtual void Rame() 
+		{
+			Console.WriteLine("Working");
+		
 		}
 
 

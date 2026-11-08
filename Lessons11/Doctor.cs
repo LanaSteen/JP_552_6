@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lessons11
 {
-	internal class Doctor : Employee
+	internal class Doctor : Employee, ICrazy
 	{
 
 		public Specialization Specialization { get; set; }
@@ -19,6 +19,17 @@ namespace Lessons11
 		public decimal	CalculateBonus(int patientCount)
 		{
 			return Sallary * patientCount;
+		}
+
+		public void Jumping()
+		{
+			Console.WriteLine("I am jumping!`");
+		}
+
+
+		public override void Rame()
+		{
+			Console.WriteLine("Rame from doctor");
 		}
 	}
 }

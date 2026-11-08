@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lessons11
 {
-	internal class Nurse : Employee
+	internal class Nurse : Employee, ICrazy
 	{
 
 		public Department Department { get; set; }
@@ -19,6 +19,10 @@ namespace Lessons11
 			return Sallary * rate;
 		}
 
+		public void Jumping()
+		{
+			Console.WriteLine("cliff jumping ");
+		}
 	}
 }
 
